@@ -1,0 +1,125 @@
+/* css general */
+.color {
+	background-color: #2B62A2;
+ }
+ .color-word {
+ 	color: white;
+ }
+.colorbutton {
+    color: white;
+}
+.headerNav {
+    padding: 0px 20px 0px 0px;
+    position: sticky;
+}
+.row {
+    margin: auto;
+    padding: auto;
+}
+.btn-outline-success {
+    border-color: white;
+}
+.margen {
+    margin: 0px 5px;
+}
+.img-ajust {
+    width: 25px ;
+    height: auto;
+}
+.col-lg-12 {
+    padding: 0px !important;
+    margin: 0px;
+} 
+.col-xs-12 {
+    padding: 0px !important;
+    margin: 0px;
+}
+.container-fluid { 
+    padding-right: 15px;
+    padding-left: 15px;  
+    margin-right: auto; 
+    margin-left: auto;
+    background-color: #2B62A2;
+}
+.headerNav {
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+}
+.text {
+    text-align: center;
+    list-style: none;
+}
+h3 {
+    text-align: center;
+}
+.container-boton{
+    background-color: white;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 2px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.boton{
+    width: 50px;
+    transition: ease 1s;
+}
+.firma {
+    text-align: center;
+    font-size: 15px;
+}
+.firma {
+    padding: 60px 0px 3px 0px;
+}
+.container-boton2:hover{
+    transform: scale(2.2);
+    transform: rotate(60deg);
+    transition: 0.5s;
+}
+.boton2 {
+    width: 40px;
+    height: 40px;
+    padding: 10px 0px auto 0px;
+    margin: 1px 40px 0px 150px;
+}
+.tam-logo {
+    width: 35px;
+    height: 35px;
+}
+.medText {
+    padding: 4px;
+    margin: 0px 35px 0px 0px;
+    text-align: center;
+}
+.text2 {
+    padding: 0px auto;
+    margin: auto;
+}
+.medFooter {
+    padding: 50px 0px 0px 0px;
+}
+ /* css producto */
+ .container-fluid {
+    padding: 0;
+ }
+ .text {
+    text-align: center;
+ }
+ .color-pro {
+    background-color: white;
+ }
+ .descripcion {
+    text-align: center;
+    tex
+ }
+ /* css nosotros */
+ /* css contacto */
