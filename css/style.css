@@ -121,5 +121,86 @@ h3 {
     text-align: center;
     tex
  }
+ .img-fluid {
+    
+ }
  /* css nosotros */
+ .text {
+    padding: 30px 0px;
+ }
+ .text-nos {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-weight: bold;
+    background-color: rgba(43, 98, 162,.8);
+ }
+ .img-taller {
+   padding: 15px 0px 15px 200px;
+ }
+ .parr-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px 10px;
+ }
  /* css contacto */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.box {
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto 20px auto;
+    background: rgba(0, 0, 0,.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0,.5);
+    border-radius: 10px;
+}
+.box h2 {
+    margin: 0px 0px 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.box .input {
+    position: relative;
+}
+.box .inputBox label {
+    top: 0;
+    left: 0;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.box .inputBox input {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+    top: -18px;
+    left: 0px;
+    color: #2B62A2;
+    font-size: 12px;
+}
+.box input[type="submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #2B62A2;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
